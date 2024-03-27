@@ -12,8 +12,8 @@ console.log('3');
 // console.log('1'); added to call stack
 // print 1
 // console.log('1'); removed from call stack
-// setTimeout(() => {console.log('2'), 1000}); added to call stack. JS Engine skips setTimeout and leave it to Web API
-// setTimeout(() => {console.log('2'), 1000}); removed from call stack and sent to Web API. When timeout is done, it is going to push the callback queue
+// setTimeout(() => {console.log('2'), 1000}); added to call stack. JS Engine skips setTimeout and leaves it to Web API
+// setTimeout(() => {console.log('2'), 1000}); removed from call stack and sent to Web API. When the timeout is done, it is going to push the callback queue
 // console.log('3'); added to call stack
 // print 3
 // console.log('3'); removed from call stack
@@ -21,3 +21,5 @@ console.log('3');
 // console.log('2'); added to call stack because the stack is empty
 // print 2
 // console.log('2'); removed from call stack
+
+//Even if setTimeout value is 0, the output would be the same
