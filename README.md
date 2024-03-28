@@ -1,2 +1,2 @@
-# javaScript_fundamentals
+# javascript_fundamentals
 JavaScript Fundamentals
