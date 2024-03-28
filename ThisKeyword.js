@@ -70,7 +70,7 @@ const obj = {
     name: 'Cansu',
     message() {
         console.log('1', this);
-        var anotherMessage = () => {
+        var anotherMessage = function(){
             console.log('2', this);
         }
         return anotherMessage.bind(this);
@@ -90,7 +90,7 @@ const obj = {
     message() {
         console.log('1', this);
         var self = this;
-        var anotherMessage = () => {
+        var anotherMessage = function(){
             console.log('2', self);
         }
         return anotherMessage();
