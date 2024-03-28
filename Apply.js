@@ -29,3 +29,17 @@ console.log('2', prod2);
 // Output
 // { name: 'Orange', price: 80 }
 // { name: 'Orange', price: 130 }
+
+// Example 3
+// get Max
+const array = [1, 2, 3];
+
+function getMaxNumber(arr) {
+  return Math.max.apply(null, arr);
+}
+
+console.log(getMaxNumber(array));
+
+// Output
+// 3
+
