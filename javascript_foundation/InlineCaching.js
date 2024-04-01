@@ -1,11 +1,11 @@
 //Inline Cahching
 function findUser(user) {
-  return `found ${user.firstName} ${user.lastName}`
-};
+  return `found ${user.firstName} ${user.lastName}`;
+}
 
 const userData = {
   firstName: 'Cansu',
-  lastName: 'Tuzmen
+  lastName: 'Tuzmen',
 };
 
 findUser(userData);
