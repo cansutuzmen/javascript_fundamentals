@@ -27,7 +27,7 @@ obj1.message();
 
 // Example 2
 
-const obj = {
+const obj3 = {
     name: 'Cansu',
     message() {
         console.log('1', this);
@@ -38,7 +38,7 @@ const obj = {
     }
 }
 
-obj.message()
+obj3.message()
 
 // Output
 // 1 > { name: 'Cansu', message: f } -- this is called by object
@@ -47,7 +47,7 @@ obj.message()
 // Example 3 - ES6
 // Arrow functions are lexical bound
 
-const obj = {
+const obj4 = {
     name: 'Cansu',
     message() {
         console.log('1', this);
@@ -77,7 +77,7 @@ const obj = {
     }
 }
 
-obj.message()()
+obj4.message()()
 
 // Output
 // 1 > { name: 'Cansu', message: f } -- this is called by object
@@ -85,7 +85,7 @@ obj.message()()
 
 // Example 5
 
-const obj = {
+const obj5 = {
     name: 'Cansu',
     message() {
         console.log('1', this);
@@ -97,7 +97,7 @@ const obj = {
     }
 }
 
-obj.message()()
+obj5.message()()
 
 // Output
 // 1 > { name: 'Cansu', message: f } -- this is called by object
