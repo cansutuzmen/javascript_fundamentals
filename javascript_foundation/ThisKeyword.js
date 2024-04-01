@@ -1,6 +1,6 @@
 // this Keyword
-// It gives methods access to their object
-// execute the same code for multiple objects
+// 1. It gives methods access to their object
+// 2. Execute the same code for multiple objects
 
 // Example 1
 function  message() {
