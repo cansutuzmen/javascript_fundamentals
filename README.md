@@ -28,6 +28,7 @@
 
 Pros:
 - Quick to get up and running
+  
 Cons:
 - If you are running a code(like a loop) more than once even though it gives us the same result, it can get really slow
 
@@ -35,6 +36,7 @@ Cons:
 Pros:
 - Smart enough to understand the same output and simplify. It doesn’t need to repeat the translation for each pass-through
 - In a loop, it is faster
+
 Cons:
 It takes a little bit more time to start up because it has to go through that compilation step at the beginning, go through our code, understand it, and spit it out into another language.
 
